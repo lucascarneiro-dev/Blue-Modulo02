@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <title style="display:none">Lima's Mood</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Lima's mood</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a onclick="moodChange('feliz')">Feliz</a></li>
+                    <li><a onclick="moodChange('serio')">Sério</a></li>
+                    <li><a onclick="moodChange('irritado')">Irritado</a></li>
+                    <li><a onclick="moodChange('surpreso')">Surpreso</a></li>
+                    <li><a onclick="moodChange('incrivel')">Incrível</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <img src="img/feliz.png" id="mood" alt="" class="mood">
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
